@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(229, 23%, 23%);
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.first-svg {
+    width: 830px;
+    height: 800px;
+    position: absolute;
+    left: -80px;
+    top: -280px;
+    fill: hsl(185, 75%, 39%);
+}
+
+.second-svg {
+    width: 900px;
+    height: 800px;
+    position: absolute;
+    right: -100px;
+    bottom: -360px;
+    fill: hsl(185, 75%, 39);
+}
+
+.parent {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    background-color: white; */
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    /* margin-bottom: 50px; */
+    border-radius: 20px 20px;
+}
+
+.third-svg {
+    width: 500px;
+    border-radius: 20px 20px 0 0;
+}
+
+.deets {
+    text-align: center;
+}
+
+.num {
+    color: hsl(0, 0%, 59%);
+}
+
+.deets h2 {
+    margin-bottom: 15px;
+}
+
+.deets p {
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+}
+
+.fourth {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    position: relative;
+    top: -75px;
+    border: 7px solid white;
+    background-color: white;
+}
+
+.fol {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin-top: 40px;
+    border-top: 2px solid hsl(0, 0%, 59%);
+}
+
+.follow {
+    text-align: center;
+}
+
+.follow p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+@media screen and (max-width: 1024px) {
+    /* body {
+        overflow-x: hidden;
+    } */
+    .first-svg {
+        height: 800px;
+        width: 800px;
+        position: absolute;
+        left: -80px;
+        top: -280px;
+        fill: hsl(185, 75%, 39%);
+    }
+    .second-svg {
+        height: 800px;
+        width: 800px;
+        right: -140px;
+        bottom: -360px;
+        fill: hsl(185, 75%, 39);
+    }
+    .card {
+        margin-top: 60px;
+        height: 600px;
+        width: 400px;
+        background-color: white;
+        border-radius: 20px 20px;
+    }
+    .third-svg {
+        width: 400px;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .first-svg {
+        height: 600px;
+        width: 600px;
+        position: absolute;
+        left: -80px;
+        top: -280px;
+        fill: hsl(185, 75%, 39%);
+    }
+    .second-svg {
+        height: 600px;
+        width: 600px;
+        right: -140px;
+        bottom: -360px;
+        fill: hsl(185, 75%, 39);
+    }
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        /* overflow-y: scroll; */
+        overflow-x: hidden;
+    }
+    .first-svg {
+        height: 550px;
+        width: 500px;
+        position: absolute;
+        left: -80px;
+        top: -280px;
+        fill: hsl(185, 75%, 39%);
+    }
+    .second-svg {
+        height: 400px;
+        width: 500px;
+        right: -100px;
+        bottom: -360px;
+        fill: hsl(185, 75%, 39);
+    }
+    .card {
+        margin-top: 320px;
+        height: 600px;
+        width: 300px;
+        background-color: white;
+        border-radius: 20px 20px;
+    }
+    .third-svg {
+        width: 300px;
+        border-radius: 20px 20px 0 0;
+    }
+    .fol {
+        padding: 30px;
+    }
+    .follow {
+        margin-top: 50px;
+    }
+}
